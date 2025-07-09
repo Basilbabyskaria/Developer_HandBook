@@ -17,6 +17,8 @@ creates a `.git` folder which is used to track the version
 
 ### Tracking
 Even Though Git is initialized on the repository Git has not yet began trancking it,  
-`git add 'file name '` is used to add the files to the staging area where git keeps track of changes
+`git add <file name>` to add the files to the staging area where files are kept beforing commiting.  
+`git rm --cached <file name>` to unstage the file
 
 ### Commits
+`git commit -m <message>` push's the file to repo where they are tracked for changes,Providing a message is compelsory while commiting
