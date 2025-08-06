@@ -17,6 +17,7 @@ seperate line's do a double space after the first line,
 Or just seperate it by an empty Line
 
 ## Comments
+
 `[comment]: <> (comment)`  
 `[//]: <> (comment)`
 
@@ -65,65 +66,83 @@ GitHub Supports HTML scripting so we can use this for the same result.
 
 ## Super Sub Scripting
 
-Can Surround a text with `^` for super and `~` for sub but again does not work on GitHub and need to use `<SUB>` and `<SUP` instead  
+Can Surround a text with `^` for super and `~` for sub but again does not work on GitHub and need to use `<SUB>` and `<SUP>` instead  
 H<SUB>2</SUB>0 ` `A<SUP>2</SUP>
 
 ## Emoji 😒
+
 Copy Paste Emoji for GitHub  
 Use`: Emojie Name :` For Others  
 Use `🪟+.` for Emoji
 
 ## Links
+
 Use `[Name](Link)`  
 External :- [External Link Name](www.google.com)  
 Internal :- [Internal Link To Headings](/README/How_To_Write_a_Readme.md)
 
 ## Images
-Use `~[altTrext](Link)`   
+
+Use `~[altTrext](Link)`  
 ~[Git](https://images.app.goo.gl/NcK9ArqViCwCbBbq8)
 
 ## Horizontal Rule
 
 `---` ,`***`,`___`
----  
-***  
-___
+
+---
+
+---
+
+---
 
 ## List
-Number Followed by `.` allways returns a Ordered list  
+
+Number Followed by `.` allways returns a Ordered list
+
 1. item 1
 2. item 2
-***
+
+---
+
 For UnOrdered List use `*` ,`-` or `+`
-* item 1 
-    * item 2
-        + item 3
-            - item 4
+
+- item 1
+  - item 2
+    - item 3
+      - item 4
 
 For Nesting Use Tab key
 
 ## > (qoute)
->1 `>`
->>2 `>>`
->>>3 `>>>`
 
-`>` Gives This 
+> 1 `>`
+>
+> > 2 `>>`
+> >
+> > > 3 `>>>`
 
-## Table  (Git)
-Use `|` for start and end of each column   
+`>` Gives This
+
+## Table (Git)
+
+Use `|` for start and end of each column  
 Use `----` for seperating heading row with others
 And use `:----:` Aligning Items to Center in Each Column
+
 ```
 
 |H1|H2|
 |----|:----:|
 |i1|i2|
 ```
-|H1|H2|
-|----|:----:|
-|i1|i2|
+
+| H1  | H2  |
+| --- | :-: |
+| i1  | i2  |
 
 ## Check Box (Git)
+
 For UNChecked Check Box `-[] text`
 For Checked Check Box `-[X] text`
 
