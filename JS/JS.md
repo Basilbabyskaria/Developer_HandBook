@@ -623,3 +623,30 @@ a.classList.toggle("classname",true) >> add's or remove based on passed boolean
 const a=document.querySelector("#a")
 a.style.property=value
 ```
+
+## Class
+- class is used to create one or more objects
+- class definition contain's what an object have (Instance Propertys) and what an object does (Instance Methode)
+- Every class has a constructor 
+- A constructor is a methode which is run once when the object is created,which is used to setup your object
+- constructor contains propertys  and any other functions are method's
+
+```
+class Rectangle{
+constructor(_width,_height){
+  // this refers to current object,'_' is not necessary
+this.width=_width;
+this.height=_height;
+}
+getArea(){
+return this.width*this.height
+}
+}
+
+//creating an object with class
+let myRectangle =new Rectangle(4,5)
+// executing the methodes
+myRectangle.getArea()
+```
+### Getter and setter
+
